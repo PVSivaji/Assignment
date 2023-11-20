@@ -1,10 +1,17 @@
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String romanNumber = "XIII";
-        System.out.println(romanToInt(romanNumber));
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter a Roman numeral: ");
+        String romanNumber = scanner.nextLine();
+
+        System.out.println("The integer equivalent is: " + romanToInt(romanNumber));
+
+        scanner.close();
     }
 
     public static int romanToInt(String s) {
