@@ -150,7 +150,9 @@ form .form-row .textarea{
 .inline-radio {
   display: inline-block;
 }
-
+.Gende{
+  margin-left: 20px;
+}
 
 .submit-btn .input-data input{
   background: none;
